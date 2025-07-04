@@ -1,0 +1,98 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Trade in goods by exporter characteristics, by enterprise employment size and industry","12100094","228-0073","https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1210009401",,"CURRENT - a cube available to the public and that is current","Annual","2000-01-01","2024-01-01","4",
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
+"1","Geography",,""
+"2","Estimates",,""
+"3","Enterprise employment size",2,""
+"4","North American Industry Classification System (NAICS)",,""
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
+"1","Canada","[11124]","1","","",,
+"2","Value of exports","","1","","",1;4,
+"2","Number of exporting enterprises","","2","","",,
+"3","Small and medium-sized enterprises (0 to 499 employees)","","2","1","",3,
+"3","Large enterprises (500 or more employees)","","9","1","",,
+"3","0 or unreported employees","","3","2","",,
+"3","1 to 9 employees","","4","2","",,
+"3","10 to 49 employees","","5","2","",,
+"3","50 to 99 employees","","6","2","",,
+"3","100 to 249 employees","","7","2","",,
+"3","250 to 499 employees","","8","2","",,
+"3","All enterprise employment sizes","","1","","",,
+"4","Arts, entertainment and recreation","[71]","42","1","",,
+"4","Accommodation and food services","[72]","43","1","",,
+"4","Other services (except public administration)","[81]","44","1","",,
+"4","Public administration","[91]","45","1","",,
+"4","Agriculture, forestry, fishing and hunting","[11]","2","1","",,
+"4","Mining, quarrying, and oil and gas extraction","[21]","3","1","",,
+"4","Utilities","[22]","7","1","",,
+"4","Construction","[23]","8","1","",,
+"4","Manufacturing","[31-33]","9","1","",,
+"4","Wholesale trade","[41]","31","1","",,
+"4","Retail trade","[44-45]","32","1","",,
+"4","Transportation and warehousing","[48-49]","33","1","",,
+"4","Information and cultural industries","[51]","34","1","",,
+"4","Finance and insurance","[52]","35","1","",,
+"4","Real estate and rental and leasing","[53]","36","1","",,
+"4","Professional, scientific and technical services","[54]","37","1","",,
+"4","Management of companies and enterprises","[55]","38","1","",,
+"4","Administrative and support, waste management and remediation services","[56]","39","1","",,
+"4","Educational services","[61]","40","1","",,
+"4","Health care and social assistance","[62]","41","1","",,
+"4","Oil and gas extraction","[211]","4","3","",,
+"4","Mining and quarrying (except oil and gas)","[212]","5","3","",,
+"4","Support activities for mining, and oil and gas extraction","[213]","6","3","",,
+"4","Food manufacturing","[311]","10","9","",,
+"4","Beverage and tobacco product manufacturing","[312]","11","9","",,
+"4","Textile mills","[313]","12","9","",,
+"4","Textile product mills","[314]","13","9","",,
+"4","Apparel manufacturing","[315]","14","9","",,
+"4","Leather and allied product manufacturing","[316]","15","9","",,
+"4","Wood product manufacturing","[321]","16","9","",,
+"4","Paper manufacturing","[322]","17","9","",,
+"4","Printing and related support activities","[323]","18","9","",,
+"4","Petroleum and coal product manufacturing","[324]","19","9","",,
+"4","Chemical manufacturing","[325]","20","9","",,
+"4","Plastics and rubber products manufacturing","[326]","21","9","",,
+"4","Machinery manufacturing","[333]","25","9","",,
+"4","Computer and electronic product manufacturing","[334]","26","9","",,
+"4","Electrical equipment, appliance and component manufacturing","[335]","27","9","",,
+"4","Transportation equipment manufacturing","[336]","28","9","",,
+"4","Furniture and related product manufacturing","[337]","29","9","",,
+"4","Miscellaneous manufacturing","[339]","30","9","",,
+"4","Non-metallic mineral product manufacturing","[327]","22","9","",,
+"4","Primary metal manufacturing","[331]","23","9","",,
+"4","Fabricated metal product manufacturing","[332]","24","9","",,
+"4","All industries","","1","","",,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period","..",
+"less than the limit of detection","<LOD",
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded","0s",
+"data quality: excellent","A",
+"data quality: very good","B",
+"data quality: good","C",
+"data quality: acceptable","D",
+"use with caution","E",
+"too unreliable to be published","F",
+"not applicable","...",
+"preliminary","p",
+"revised","r",
+"suppressed to meet the confidentiality requirements of the Statistics Act","x",
+"terminated","t",
+
+"Survey Code","Survey Name"
+"5124","Trade by Exporter Characteristics - Goods"
+
+"Subject Code","Subject Name"
+"12","International trade"
+
+"Note ID",Note
+1,"Data may not add to totals due to rounding."
+2,"For additional information and definitions related to the employment variable, refer to <a href="http://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=2612" rel="external noopener noreferrer" target="_blank">Survey of Employment, Payrolls and Hours (SEPH) (opens new window)</a>."
+3,"This employment category includes enterprises who reported 0 employees as well as those who did not report employment data."
+4,"Total value of exports refers to the part of annual domestic export value (customs basis) that can be linked to specific entities in the Business Register each year. Annual domestic export values (customs basis) can be obtained from table 12-10-0175. For additional information and definitions related to merchandise domestic exports, refer to <a href="http://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=2201" rel="external noopener noreferrer" target="_blank"> Canadian International Merchandise Trade (Custom Basis) (opens new window)</a>."
+
+"Correction ID","Correction Date","Correction Note"
